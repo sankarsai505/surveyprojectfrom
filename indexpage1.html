@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="reg.css">
+</head>
+<body>
+    <div class="div">
+        <form class="form" id="registrationForm">
+            <h1>Registration Page</h1>
+            <table class="table">
+                <tr>
+                    <th>
+                        <td><label for="first-name" class="label">First Name</label></td>
+                        <td><input type="text" id="first-name" name="first-name" placeholder="Enter first name" required class="input"></td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <td><label for="second-name" class="label">Second Name</label></td>
+                        <td><input type="text" id="second-name" name ="second-name" placeholder="Enter second name" required class="input"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <td><label for="phone-number" class="label">Phone Number</label></td>
+                        <td><input type="tel" id="phone-number" name="phone-number" placeholder="Enter phone number" required class="input"></td>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <td><label for="email" class="label">Email</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter email" required class="input"></td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <td><label for="retype-email" class="label">Retype Email</label></td>
+                        <td><input type="email" id="retype-email" name="retype-email" placeholder="Re-enter email" class="input" required></td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <td><label for="date-of-birth" class="label">Date of Birth</label></td>
+                        <td><input type="date" id="date-of-birth" name="date-of-birth" required></td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <td><label for="password" class="label">Password</label></td>
+                        <td><input type="password" id="password" name="password" placeholder="Password" class="input" required></td>
+                    </th>
+                </tr>
+
+                <tr>
+                    <th colspan="9" class="centered-th">
+                        <button type="button" class="button" onclick="validateRegistration()">Register</button>
+                    </th>
+                </tr>
+            </table>
+            <footer><p><a href="loginpage.html">all reddy have account</a></p></footer>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the form */
+.div {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+/* Style the form header */
+.form h1 {
+    font-size: 24px;
+}
+
+/* Style the form elements */
+.label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Style the login button */
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Style the footer links */
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: left 10px; ;
+}
+
+/* Center the footer links */
+footer {
+    text-align: center;
+    justify-content:center;
+}
+.label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
